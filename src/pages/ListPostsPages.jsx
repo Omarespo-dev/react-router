@@ -1,10 +1,9 @@
-// iMPORTIAMO HEADER E FOTTER E QUESTO E IL CONTENUTO CHE ANDRA FRA HEADER E FOOTER
-import Header from "../components/Header"
+// Import Main
 import Main from "../components/Main"
 
+// Esporto La funzione ListPostsPages e la importo su app
 export default function ListPostsPages() {
     return (<>
-        <Header />
         <div>
             <h1>PARTE DELLA ROTTA LIST POSTS</h1>
         </div>
