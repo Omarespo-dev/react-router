@@ -35,6 +35,10 @@ header{
   background-color: greenyellow;
 }
 
+.navbar a.active{
+  background-color: red;
+}
+
 
 main{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
