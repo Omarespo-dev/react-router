@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
     return (<>
     <header>
         <div className="navbar">
-            <nav><a href="#">Homepage</a></nav>
-            <nav><a href="#">Chi siamo</a></nav>
-            <nav><a href="#">Lista dei Post</a></nav>
+            <Link to="/">Homepage</Link>
+            <Link to="/chisiamo">Chi siamo</Link>
+            <Link to="/listposts">Lista dei Post</Link>
         </div>
     </header>
     </>)
