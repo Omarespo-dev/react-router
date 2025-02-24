@@ -11,11 +11,9 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-
         <Route path='/' element={<HomePages />} ></Route>
         <Route path='/chisiamo' element={<ChiSiamoPages />} ></Route>
         <Route path='/listposts' element={<ListPostsPages />} ></Route>
-
       </Routes>
     </BrowserRouter>
 
