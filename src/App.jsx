@@ -2,7 +2,7 @@
 import HomePages from "./pages/HomePages";
 import ChiSiamoPages from "./pages/ChiSiamoPages";
 import ListPostsPages from "./pages/ListPostsPages";
-
+import CreatePostPage from "./pages/CreatePostPage";
 // Importo I componenti del router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -23,7 +23,14 @@ function App() {
         <Route element={<DefaultLayout />}>
           <Route path='/' element={<HomePages />} ></Route>
           <Route path='/chisiamo' element={<ChiSiamoPages />} ></Route>
-          <Route path='/listposts' element={<ListPostsPages />} ></Route>
+          <Route path="/listposts"element={<ListPostsPages />} />
+          <Route path="/createposts"element={<CreatePostPage />} />
+          
+          {/* <Route path='/listposts'>
+            <Route index element={<ListPostsPages />} />
+            <Route path="createposts"element={<CreatePostPage />} />
+          </Route> */}
+          
         </Route>
 
       </Routes>

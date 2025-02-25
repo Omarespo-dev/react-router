@@ -9,6 +9,7 @@ export default function Header() {
             <NavLink to="/">Homepage</NavLink>
             <NavLink to="/chisiamo">Chi siamo</NavLink>
             <NavLink to="/listposts">Lista dei Post</NavLink>
+            <NavLink to="/createposts">Crea un nuovo Post</NavLink>
         </div>
     </header>
     </>)

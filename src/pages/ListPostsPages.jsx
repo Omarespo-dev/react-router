@@ -1,5 +1,5 @@
-// Import Main
-import Main from "../components/Main"
+// Import LISTPOST CIOE SOLO LA LISTA DEI POST
+import ListPosts from "../SplitMain/ListPosts"
 
 // Esporto La funzione ListPostsPages e la importo su app
 export default function ListPostsPages() {
@@ -7,7 +7,7 @@ export default function ListPostsPages() {
         <div>
             <h1>PARTE DELLA ROTTA LIST POSTS</h1>
         </div>
-        <Main />
+        <ListPosts />
     </>
 
     )
