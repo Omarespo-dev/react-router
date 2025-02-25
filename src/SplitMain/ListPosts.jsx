@@ -1,6 +1,7 @@
 // Importo usesState
 import { useState, useEffect } from "react";
-
+// importo link e navlink
+import { Link, NavLink } from "react-router-dom";
 
 // Importo axios
 import axios from "axios";
@@ -72,6 +73,9 @@ export default function ListPosts() {
                                 <h3>Tag</h3>
                                 <p>{post.tags.join(", ")}</p>
                                 <button className="remove" onClick={() => deleteList(post.id)}>RIMUOVI</button>
+                                <button className="remove">
+                                    <Link to={`/listposts/${post.id}`}>VAI AL DETTAGLIO</Link>
+                                </button>
                             </section>
                         )
                     }

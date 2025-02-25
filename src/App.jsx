@@ -1,8 +1,9 @@
-// importo le 3 page 
+// importo le  page 
 import HomePages from "./pages/HomePages";
 import ChiSiamoPages from "./pages/ChiSiamoPages";
 import ListPostsPages from "./pages/ListPostsPages";
 import CreatePostPage from "./pages/CreatePostPage";
+import PostsDetails from "./pages/PostsDetails";
 // Importo I componenti del router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -22,9 +23,10 @@ function App() {
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route path='/' element={<HomePages />} ></Route>
-          <Route path='/chisiamo' element={<ChiSiamoPages />} ></Route>
+          <Route path='/chisiamo' element={<ChiSiamoPages />} />
           <Route path="/listposts"element={<ListPostsPages />} />
           <Route path="/createposts"element={<CreatePostPage />} />
+          <Route path="/listposts/:id" element={<PostsDetails />} />
           
           {/* <Route path='/listposts'>
             <Route index element={<ListPostsPages />} />

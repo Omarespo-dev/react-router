@@ -33,4 +33,8 @@ Bonus
 
 
 <!-- Procedimento -->
-1) 
+1) Ho splittato il main dove conteneva il form e la list (splitMain)-- e aggiunto le varie rotte sia su Header che su app.jsx
+
+2) Ora andiamo ad utilizzare i parametri dinamici che ci permetto di andare a vedere i dettagli di quel post ma facendo solo un componente, quindi andiamo A CERCARE per OGNI ID DEL POST. attraverso (VAI AI DETTAGLI )
+
+3) Aggiunto link per vai al dettaglio sulla lista poi aggiunta di una page dei postDetails

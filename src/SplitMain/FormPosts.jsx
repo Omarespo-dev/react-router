@@ -57,13 +57,14 @@ export default function FormPosts() {
         axios.post("http://localhost:3000/posts", formData)
             .then(res => {
                 console.log(res.data)
-                setlist((currentList) => [...currentList, res.data])
+                // setlist((currentList) => [...currentList, res.data])
             })
             .catch(err => console.log(err))
 
         // reset del form all invio
         setFormData(initialFormData);
     }
+
 
 
 

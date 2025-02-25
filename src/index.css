@@ -105,3 +105,8 @@ main form button{
   background-color: white;
   cursor: pointer;
 }
+
+.remove a{
+  text-decoration: none;
+  color: black;
+}
