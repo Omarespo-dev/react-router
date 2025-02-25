@@ -38,3 +38,15 @@ Bonus
 2) Ora andiamo ad utilizzare i parametri dinamici che ci permetto di andare a vedere i dettagli di quel post ma facendo solo un componente, quindi andiamo A CERCARE per OGNI ID DEL POST. attraverso (VAI AI DETTAGLI )
 
 3) Aggiunto link per vai al dettaglio sulla lista poi aggiunta di una page dei postDetails
+
+4) Poi Andiamo a importare i vari componenti e fare la chiamata VEDERE (PostDetails.jsx)
+    ---1️⃣ L'utente visita la pagina → Ad esempio, va su http://localhost:3000/posts/5.
+    ---2️⃣ useParams() estrae l'id → In questo caso, id = "5".
+    ---3️⃣ axios.get() chiede i dati → Fa una richiesta GET a http://localhost:3000/posts/5.
+    ---4️⃣ Il server risponde con i dati del post → Ad esempio:
+        {
+            "id": 5,
+            "title": "Titolo del Post 5",
+            "body": "Contenuto del post numero 5"
+        }
+    ---5️⃣ I dati vengono salvati in useState → setlist(res.data), aggiornando la UI.

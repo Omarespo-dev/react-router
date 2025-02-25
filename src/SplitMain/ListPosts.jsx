@@ -67,15 +67,18 @@ export default function ListPosts() {
                                 <h4>Image</h4>
                                 <img src={post.image} alt={post.title} />
 
-                                <h3>Contenuto</h3>
+                                {/* <h3>Contenuto</h3>
                                 <p>{post.content}</p>
 
                                 <h3>Tag</h3>
-                                <p>{post.tags.join(", ")}</p>
+                                <p>{post.tags.join(", ")}</p> */}
+                                
                                 <button className="remove" onClick={() => deleteList(post.id)}>RIMUOVI</button>
+                                
                                 <button className="remove">
                                     <Link to={`/listposts/${post.id}`}>VAI AL DETTAGLIO</Link>
                                 </button>
+                                
                             </section>
                         )
                     }

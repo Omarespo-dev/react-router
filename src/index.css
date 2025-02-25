@@ -110,3 +110,23 @@ main form button{
   text-decoration: none;
   color: black;
 }
+
+/* content */
+.content-set img{
+  height: 300px;
+
+}
+
+.content-set div {
+  margin-top: 20px;
+  border: 2px solid greenyellow;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+ 
+}
+
+.content-set div p{
+  padding: 10px;
+ 
+}
