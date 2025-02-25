@@ -50,3 +50,5 @@ Bonus
             "body": "Contenuto del post numero 5"
         }
     ---5️⃣ I dati vengono salvati in useState → setlist(res.data), aggiornando la UI.
+
+5) Setto sia il redirect su app.jsx e error 404 sempre su app.jsx ma creando una page (NotFoundPage) e importandola su app
